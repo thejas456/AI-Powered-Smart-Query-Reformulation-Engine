@@ -19,19 +19,7 @@ Search engines often fail to return relevant results because users submit vague,
 The system preprocesses the user's search query, identifies its intent, and reformulates it using NLP and transformer-based language models. The improved query is then forwarded to the search engine, resulting in better retrieval performance.
 
 ## Features
-## 🛠️ Technology Stack
 
-| Layer | Technology |
-|-------|------------|
-| Query Preprocessing | NLTK, spaCy |
-| Intent Detection | Sentence Transformers, BERT |
-| Query Reformulation | Hugging Face Transformers (T5/BART), Llama 3 (Optional) |
-| Search & Retrieval | Elasticsearch / FAISS (Optional) |
-| Backend | Python, Flask / FastAPI |
-| Frontend | HTML, CSS, Bootstrap |
-| Database | SQLite / PostgreSQL |
-| Version Control | Git, GitHub |
-| Deployment | Docker, GitHub Actions (Future) |
 ## Technology Stack
 - Python
 - Natural Language Processing (NLP)
@@ -44,28 +32,18 @@ The system preprocesses the user's search query, identifies its intent, and refo
 
 ## System Architecture
 
-## Workflow
-User Query
-↓
-Text Preprocessing
-↓
-Intent Detection
+## Project Workflow
 
-↓
-
-Query Reformulation
-
-↓
-
-Improved Query
-
-↓
-
-Search Engine
-
-↓
-
-Relevant Results
+| Stage | Description | Technologies |
+|--------|-------------|--------------|
+| User Query Input | Accepts the user's search query through the web interface. | HTML, CSS, Flask |
+| Query Preprocessing | Cleans the query by tokenization, lowercasing, stop-word removal, and lemmatization. | NLTK, spaCy |
+| Intent Detection | Identifies the user's search intent and context. | Sentence Transformers, BERT |
+| Query Reformulation | Rewrites the query into a clearer and more context-aware version. | Hugging Face Transformers (T5/BART) |
+| Semantic Similarity | Compares the original and rewritten queries to preserve user intent. | Sentence Transformers |
+| Search Execution | Sends the reformulated query to the search engine or retrieval system. | Elasticsearch / FAISS (Optional) |
+| Result Ranking | Ranks retrieved results based on relevance and semantic similarity. | BM25, Semantic Search |
+| User Interface | Displays the improved query and relevant search results. | Flask, HTML, CSS |
 ## Literature Survey
 
 ## Repository Structure
