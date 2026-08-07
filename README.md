@@ -19,7 +19,19 @@ Search engines often fail to return relevant results because users submit vague,
 The system preprocesses the user's search query, identifies its intent, and reformulates it using NLP and transformer-based language models. The improved query is then forwarded to the search engine, resulting in better retrieval performance.
 
 ## Features
+## 🛠️ Technology Stack
 
+| Layer | Technology |
+|-------|------------|
+| Query Preprocessing | NLTK, spaCy |
+| Intent Detection | Sentence Transformers, BERT |
+| Query Reformulation | Hugging Face Transformers (T5/BART), Llama 3 (Optional) |
+| Search & Retrieval | Elasticsearch / FAISS (Optional) |
+| Backend | Python, Flask / FastAPI |
+| Frontend | HTML, CSS, Bootstrap |
+| Database | SQLite / PostgreSQL |
+| Version Control | Git, GitHub |
+| Deployment | Docker, GitHub Actions (Future) |
 ## Technology Stack
 - Python
 - Natural Language Processing (NLP)
@@ -34,13 +46,9 @@ The system preprocesses the user's search query, identifies its intent, and refo
 
 ## Workflow
 User Query
-
 ↓
-
 Text Preprocessing
-
 ↓
-
 Intent Detection
 
 ↓
@@ -69,3 +77,5 @@ Relevant Results
 ## Contributors
 
 ## License
+This project is licensed under the MIT License.
+
