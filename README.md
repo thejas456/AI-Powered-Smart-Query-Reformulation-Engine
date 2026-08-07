@@ -83,7 +83,7 @@ AI-Powered-Smart-Query-Reformulation-Engine/
     └── README.md
 ```
 ## References
-[See](docs/References.md) for Full References 
+See [docs/References.md](docs/References.md) for Full References 
 ## Contributors
 - Thejas N
 - Jeevan S
