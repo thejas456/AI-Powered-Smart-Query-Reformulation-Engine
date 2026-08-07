@@ -81,9 +81,12 @@ AI-Powered-Smart-Query-Reformulation-Engine
 ## Future Scope
 
 ## References
-
+See docs/References.md for Full References 
 ## Contributors
-
+Thejas N
+Jeevan S
+Harsha 
+Shaikh Subhan
 ## License
 This project is licensed under the MIT License.
 
