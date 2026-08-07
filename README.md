@@ -31,7 +31,7 @@ The system preprocesses the user's search query, identifies its intent, and refo
 - Git & GitHub
 
 ## System Architecture
-
+docs/System_Architecture.md
 ## Project Workflow
 
 | Stage | Description | Technologies |
