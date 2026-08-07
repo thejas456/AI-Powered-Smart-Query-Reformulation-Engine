@@ -44,10 +44,40 @@ docs/System_Architecture.md
 | Search Execution | Sends the reformulated query to the search engine or retrieval system. | Elasticsearch / FAISS (Optional) |
 | Result Ranking | Ranks retrieved results based on relevance and semantic similarity. | BM25, Semantic Search |
 | User Interface | Displays the improved query and relevant search results. | Flask, HTML, CSS |
-## Literature Survey
 
 ## Repository Structure
-
+AI-Powered-Smart-Query-Reformulation-Engine
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── docs
+│   ├── Problem_Statement.md
+│   ├── Objectives.md
+│   ├── Literature_Review.md
+│   ├── Methodology.md
+│   ├── System_Architecture.md
+│   ├── References.md
+│   └── Future_Work.md
+│
+├── dataset
+│   └── README.md
+│
+├── notebooks
+│   └── README.md
+│
+├── src
+│   └── README.md
+│
+├── diagrams
+│   ├── architecture.png
+│   ├── flowchart.png
+│   └── usecase.png
+│
+└── images
+    ├── project_banner.png
+    └── README.md
 ## Future Scope
 
 ## References
