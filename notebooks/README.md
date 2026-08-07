@@ -1,3 +1,9 @@
-# Notebooks
+# Jupyter Notebooks
 
-This folder will contain Jupyter notebooks for preprocessing, experimentation, training, and evaluation.
+This folder will contain notebooks for:
+
+- Data preprocessing
+- Exploratory data analysis
+- Model training
+- Performance evaluation
+- Experimental results
