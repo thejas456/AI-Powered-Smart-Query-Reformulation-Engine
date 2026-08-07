@@ -18,8 +18,6 @@ Search engines often fail to return relevant results because users submit vague,
 ## Proposed Solution
 The system preprocesses the user's search query, identifies its intent, and reformulates it using NLP and transformer-based language models. The improved query is then forwarded to the search engine, resulting in better retrieval performance.
 
-## Features
-
 ## Technology Stack
 - Python
 - Natural Language Processing (NLP)
