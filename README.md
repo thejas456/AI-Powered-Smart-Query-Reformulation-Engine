@@ -31,7 +31,7 @@ The system preprocesses the user's search query, identifies its intent, and refo
 - Git & GitHub
 
 ## System Architecture
-docs/System_Architecture.md
+[See](docs/System_Architecture.md) for whole architecture
 ## Project Workflow
 
 | Stage | Description | Technologies |
@@ -46,13 +46,16 @@ docs/System_Architecture.md
 | User Interface | Displays the improved query and relevant search results. | Flask, HTML, CSS |
 
 ## Repository Structure
-AI-Powered-Smart-Query-Reformulation-Engine
+
+```text
+AI-Powered-Smart-Query-Reformulation-Engine/
 │
 ├── README.md
 ├── LICENSE
 ├── .gitignore
+├── requirements.txt
 │
-├── docs
+├── docs/
 │   ├── Problem_Statement.md
 │   ├── Objectives.md
 │   ├── Literature_Review.md
@@ -61,27 +64,26 @@ AI-Powered-Smart-Query-Reformulation-Engine
 │   ├── References.md
 │   └── Future_Work.md
 │
-├── dataset
+├── dataset/
 │   └── README.md
 │
-├── notebooks
+├── notebooks/
 │   └── README.md
 │
-├── src
+├── src/
 │   └── README.md
 │
-├── diagrams
+├── diagrams/
 │   ├── architecture.png
 │   ├── flowchart.png
 │   └── usecase.png
 │
-└── images
+└── images/
     ├── project_banner.png
     └── README.md
-## Future Scope
-
+```
 ## References
-See docs/References.md for Full References 
+[See](docs/References.md) for Full References 
 ## Contributors
 - Thejas N
 - Jeevan S
