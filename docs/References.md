@@ -1,11 +1,13 @@
-# References
+## References
 
-[1] R. Nogueira et al., "Generative Query Reformulation for Effective Ad Hoc Search."
+1. Bigdeli, A., Incesu, M., Arabzadeh, N., Clarke, C. L. A., & Bagheri, E.  
+   [ReFormeR: Learning and Applying Explicit Query Reformulation Patterns](https://arxiv.org/abs/2604.01417)
 
-[2] Z. Mo et al., "ConvGQR: Generative Query Reformulation for Conversational Search."
+2. Wang, X., MacAvaney, S., Macdonald, C., & Ounis, I.  
+   [Generative Query Reformulation for Effective Adhoc Search](https://arxiv.org/abs/2308.00415)
 
-[3] M. Rahman et al., "Automated Query Reformulation Based on Stack Overflow Query Logs."
+3. Mo, F., Mao, K., Zhu, Y., Wu, Y., Huang, K., & Nie, J.-Y.  
+   [ConvGQR: Generative Query Reformulation for Conversational Search](https://arxiv.org/abs/2305.15645)
 
-[4] C. Carpineto and G. Romano, "A Survey of Automatic Query Expansion in Information Retrieval."
-
-[5] Daniel Jurafsky and James H. Martin, "Speech and Language Processing."
+4. Roulland, F., et al.  
+   [Query Reformulation and Refinement Using NLP-Based Sentence Clustering](https://doi.org/10.1007/978-3-540-71496-5_21)
